@@ -5,7 +5,6 @@ from selenium.webdriver.support import expected_conditions
 from selenium.common import TimeoutException
 
 
-@allure.title('Описание общих методов')
 class BasePage:
 
     def __init__(self, driver):

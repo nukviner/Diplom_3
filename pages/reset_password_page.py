@@ -3,7 +3,6 @@ from locators.password_reset_locators import PasswordResetLocators
 from pages.base_page import BasePage
 
 
-@allure.title('Описание методов страницы восстановления пароля')
 class ResetPasswordPage(BasePage):
 
     @allure.step('Ожидание активации поля ввода пароля')

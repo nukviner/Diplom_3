@@ -4,7 +4,6 @@ from locators.home_page_locators import HomePageLocators
 from pages.base_page import BasePage
 
 
-@allure.title('Описание методов личного кабинета пользователя')
 class HomePage(BasePage):
 
     @allure.step('Клик по кнопке История заказов')

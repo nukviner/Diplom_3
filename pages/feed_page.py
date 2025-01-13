@@ -5,7 +5,6 @@ from pages.base_page import BasePage
 from selenium.webdriver.common.by import By
 
 
-@allure.title('Описание методов заказов')
 class FeedPage(BasePage):
 
     @allure.step('Клик по "Конструктору"')

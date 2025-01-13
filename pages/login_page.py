@@ -4,7 +4,6 @@ from pages.base_page import BasePage
 from data import Urls
 
 
-@allure.title('Описание методов страницы логина')
 class LoginPage(BasePage):
 
     @allure.step('Клик по кнопке Восстановить пароль')

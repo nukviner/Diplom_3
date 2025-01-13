@@ -1,7 +1,6 @@
 import allure
 
 
-@allure.title('Проверкb раздела Лента заказов')
 class TestFeedPage:
 
     @allure.title('Проверка отображения деталей заказа')

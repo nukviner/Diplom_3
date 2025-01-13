@@ -2,7 +2,6 @@ import allure
 from data import Urls
 
 
-@allure.title('Проверки основного функционала')
 class TestMainPage:
 
     @allure.title('Проверка перехода по клику на кнопку Конструктор')

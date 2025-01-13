@@ -4,7 +4,6 @@ from pages.base_page import BasePage
 from data import Urls
 
 
-@allure.title('Описание методов восстановления пароля')
 class ForgetPasswordPage(BasePage):
 
     @allure.step('Заполнение поля email')

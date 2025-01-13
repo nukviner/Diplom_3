@@ -2,7 +2,6 @@ import allure
 from data import Urls, TestData
 
 
-@allure.title('Проверки Восстановления пароля')
 class TestPassRecovery:
 
     @allure.title('Проверка перехода на страницу восстановления пароля по кнопке Восстановить пароль')
